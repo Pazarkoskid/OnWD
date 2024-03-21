@@ -1,0 +1,86 @@
+body{
+	background-color:#11559E;
+	
+}
+
+#navigacija,a{
+	padding:10px;
+	margin:10px;
+	color:lightblue;
+	text-decoration:none;
+	text-align:center;
+	
+}
+
+#mainPicture>.picture{
+	margin:auto;
+	background-image:url(slika.jpg);
+	background-repeat:no-repeat;
+	width:600px;
+	height:320px;
+	border: solid white 5px;
+}
+
+
+.topNaviagationLink{
+	display:inline;
+}
+
+.contentBox{
+	background-color:white;
+	margin-top:8px;
+	margin-left:27%;
+	margin-right:27%;
+	padding:5px;
+ 	position: relative;	
+}
+
+.contentTitle{
+	font-weight:bold;
+	color:blue;
+	text-align:center;
+}	
+
+p:first-line{
+	text-decoration:underline;
+	background-color:lightblue;
+}
+
+
+#forma{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	border:dashed blue 1px;
+	float:right;
+	width:190px;
+	margin: auto;
+	margin-left: 20px;
+	
+}
+
+
+#kopce{
+	display:inline;
+	
+	border-radius: 20px;
+	margin-left:33%;
+}
+
+span{
+ 	font-family:Tahoma, Geneva, sans-serif;
+	letter-spacing:2px;
+	font-size:16px;
+}
+
+#footer{
+	text-align:center;
+	color:white;
+	margin:auto;
+	clear:both;
+}	
+
+
+a:hover{
+color:red;
+font-size:20px;
+}

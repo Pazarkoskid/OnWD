@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Lab 8 WD</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Лабораториска<span class="logo_colour">бр. 8</span></a></h1>
+          <h2>Едноставна. Кратка. Последна.</h2>
+        </div>
+      </div>
+      <nav>
+        <div id="menu_container">
+          <ul class="sf-menu" id="nav">
+            <li><a href="#">Дома</a></li>
+            <li><a href="examples.html" class="currentLink">Примери</a></li>
+            <li><a href="#">За нас</a></li>
+            <li><a href="#">Контакт</a></li>
+            <li><a href="#">Линкови</a>
+            </li>
+            <li><a href="#">Блог</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="sidebar">
+          <h3>Најнови Статии</h3>
+          <h4>Универзален селектор</h4>
+          <h5>Мај 25ти, 2013</h5>
+          <p>Како најмоќен селектор се смета универзалниот селектор. Со него се доделуваат својства на сите елементи во документот..<br /><a href="#">Прочитај повеќе</a></p>
+        </div>
+        <div class="sidebar">
+          <h3>Својства</h3>
+          <p>Со својствата на фонтот се променуваат видовите на фонтови, нивната големина, задебеленоста, накосеноста. Доколку читачот на вебот
+          	 не подржува некое од специфицираните својства на фонтот тогаш се активира преддефинираното својство.</p>
+        </div>
+        <div class="sidebar">
+          <h3>Корисни линкови</h3>
+          <ul>
+            <li><a href="#">Ентитети</a></li>
+            <li><a href="#">Основи на HTML</a></li>
+            <li><a href="#">Табели</a></li>
+            <li><a href="#">CSS3</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="content">
+        <img style="float: left; vertical-align: middle; margin: 0 10px 0 0;" src="images/examples.png" alt="examples" /><h1 style="margin: 15px 0 0 0;">Примери</h1>
+        <p>Оваа страна содражи примери за некои од основните HTML елементи. Користи ја оваа страна како референца, кога ќе ја правиш твојата веб страна.</p>
+        <h2>Headings</h2>
+        <p>Ова се различните формати:</p>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <h2>Текст</h2>
+        <p>Овој пример покажува како текстот (во рамки на '&lt;p&gt;&lt;/p&gt;' таговите) ќе биде прикажан:</p>
+        <p><strong>Ова е пример со задебелен текст и на лево</strong></p>
+        <p id="desenP"><i>Ова е пример со закосен текст и на десно</i></p>
+        <p id="sredinaP"><a href="#">Ова е хиперлинк на средина</a></p>
+        <h2>Листи</h2>
+        <p>Ова е неподредена листа:</p>
+        <ul>
+          <li>3</li>
+          <li>2</li>
+          <li>1</li>
+          <li>4</li>
+        </ul>
+        <p>Ова е подредена листа:</p>
+        <ol>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+        </ol>
+        <h2>Слики</h2>
+        <p>сликите може да се постават лево, во средина или на десно:</p>
+        <span class="left"><img src="images/home.png" alt="example graphic" /></span>
+        <p>
+          Својствата за текст на каскадните стилови овозможуваат контрола врз појавата на текстовите.
+           Можна е промена на бојата, зголемување и намалување на просторот помеѓу знаците и друго
+        </p>
+        <span class="center"><img src="images/home.png" alt="example graphic" /></span>
+        <span class="right"><img src="images/home.png" alt="example graphic" /></span>
+        <p>
+          Со својствата на фонтот се променуваат видовите на фонтови, нивната големина, задебеленоста, накосеноста.
+           Доколку читачот на вебот не подржува некое од специфицираните својства на фонтот тогаш се активира преддефинираното својство.
+           Со својствата на фонтот се променуваат видовите на фонтови, нивната големина, задебеленоста, накосеноста. 
+          Доколку читачот на вебот не подржува некое од специфицираните својства на фонтот тогаш се активира преддефинираното својство.
+        </p>
+        <h2>Табели</h2>
+        <p>Табелите треба да се користат за табеларна претстава на податоци а <b>НЕ</b> за креирање на изгледот на страната:</p>
+        <table style="width:100%; border-spacing:0;">
+          <tr><th>Име</th><th>Опис</th></tr>
+          <tr><td>link</td><td>линк кој сеуште не е посетен</td></tr>
+          <tr><td>visited</td><td>линк кој бил посетен</td></tr>
+          <tr><td>hover</td><td>линк на кој во актуелниот момент покажува глушецот</td></tr>
+          <tr><td>active</td><td>селектиран линк</td></tr>
+        </table>
+        <h2>Form елементи</h2>
+        <form action="#" method="post">
+          <div class="form_settings">
+            <p><span>Пример</span><input type="text" name="name" value="" /></p>
+            <p><span>Textarea пример</span><textarea rows="8" cols="50" name="name"></textarea></p>
+            <p><span>Checkbox пример</span><input class="checkbox" type="checkbox" name="name" value="" /></p>
+            <p><span>Dropdown list пример</span><select id="id" name="name"><option value="1">Пример 1</option><option value="2">Пример 2</option></select></p>
+            <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="name" value="Копче" /></p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright &copy; Лабораториска бр.8 | <a href="http://www.finki.ukim.mk">ФИНКИ</a></p>
+    </footer>
+  </div>
+  <p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,118 @@
+html, body {
+	height: 100%;
+	background-color: #F5F5F5;
+	margin-top: 0px;
+	font-size: 18px;
+}
+
+#stranica {
+	height: 600px;
+	background: none repeat scroll 0 0 white;
+	margin: auto;
+	overflow: hidden;
+	width: 800px;
+}
+
+#sodrzina {
+
+	float: left;
+	position: relative;
+	right: 50%;
+	width: 100%;
+}
+
+#logo img {
+	width: 120px;
+	text-align: center;
+	position:relative;
+	left:0px;
+	top:0px;
+	z-index:1;
+}
+
+#meni {
+	width: 100%;
+	margin-top: -80px;
+	height: 30px;
+	margin-right: 5px;
+	font-size: 18px;
+}
+
+#meni  {
+
+	background-color: #81b518;
+	margin: 0px;
+	padding-top: 5px;
+	padding-left: 130px;
+}
+
+dt, dd, li {
+	text-align: justify;
+}
+
+#meni {
+	background-color: #81b518;
+	margin: 0;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: inline;
+	text-align: center;
+}
+
+#meni a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.naslov {
+	color: #92CD00;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.tekst {
+	color: #441A3F;
+	font-size: 14px;
+	text-align: justify;
+	padding-right: 20px;
+}
+
+#col1 {
+	float: left;
+	left: 52%;
+	overflow: hidden;
+	position: relative;
+	width: 46%;
+}
+#col2 {
+	float: left;
+	left: 56%;
+	overflow: hidden;
+	position: relative;
+	width: 46%;
+}
+
+#col2 img {
+	width: 350px;
+	margin: auto;
+}
+
+#footer {
+	background-color: #81b518;
+	color: #FFFFFF;
+	clear: both;
+	font-size: 18px;
+	text-align: center;
+	width: 800px;
+	margin-left: 269px;
+	height: 30px;
+	margin-top: -80px; 
+}
+.podvleceno {
+	text-decoration: underline;
+}
+
+#kontakt {
+	background-color: yellow;
+}

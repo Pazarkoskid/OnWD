@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(225, 255, 166);
+    font-family: 'Trebuchet MS', 'Times New Roman', serif;
+    font-size: 12px;
+    color: darkgreen;
+}
+.page-wrapper{
+    background-image: url(sidegraphic.gif);
+    width: 100px;
+    height: 1700px;
+    float: left;
+    background-repeat: repeat-y;
+}
+#finki-intro{
+    background-image: url(top.gif);
+    width: 552px;
+    height: 455px;
+    margin-left: 100px;
+}
+#banner{
+    background-image: url(bar.gif);
+    width: 325px;
+    height: 35px;
+    float: right;
+    text-indent: -9999px;
+    margin-top: 450px;
+    margin-right: 200px;
+}
+#finki-summary{
+    float: right;
+    margin-left: 150px;
+    margin-top: 454px;
+    margin-right: -420px;
+}
+#finki-summary p{
+    text-indent: -9999px;
+}
+#finki-description h3{
+    background-image: url(01.gif);
+    width: 400px;
+    height: 60px;
+    text-indent: -9999px;
+    float: right;
+    margin-right: 150px;
+    margin-top: 10px;
+}
+#finki-description p{
+    margin-left: 20px;
+    width: 400px;
+    text-align: justify;
+    padding: 5px;
+}
+#finki-more h3{
+    background-image: url(02.gif);
+    width: 400px;
+    height: 60px;
+    text-indent: -9999px;
+    margin-left: 100px;
+    margin-top: 270px;
+}
+#finki-more p{
+    width: 400px;
+    padding: 5px;
+    text-align: justify;
+    margin-left: 120px;
+}
+#finki-history70 h3{
+    background-image: url(03.gif);
+    width: 400px;
+    height: 60px;
+    text-indent: -9999px;
+    margin-left: 100px;
+}
+#finki-history70 p{
+    width: 400px;
+    padding: 5px;
+    text-align: justify;
+    margin-left: 120px;
+}
+#finki-history80 h3{
+    background-image: url(04.gif);
+    width: 400px;
+    height: 60px;
+    text-indent: -9999px;
+    margin-left: 100px;
+}
+#finki-history80 p{
+    width: 400px;
+    padding: 5px;
+    text-align: justify;
+    margin-left: 120px;
+}
+#finki-decline h3{
+    background-image: url(05.gif);
+    width: 400px;
+    height: 60px;
+    text-indent: -9999px;
+    margin-left: 100px;
+}
+#finki-decline p{
+    width: 400px;
+    padding: 5px;
+    text-align: justify;
+    margin-left: 120px;
+}
+footer{
+    background-image: url(footer.gif);
+    width: 400px;
+    height: 100px;
+    margin-left: 150px;
+}
+#current-hits{
+    float: right;
+    margin-top: -1200px;
+    margin-right: -630px;
+}
+#current-hits h3{
+    background-image: url(playlist.gif);
+    width: 190px;
+    height: 30px;
+    text-indent: -9999px;
+    padding-bottom: 2px;
+}
+#current-hits ul li{
+    list-style-type: none;
+    padding: 5px;
+    width: 180px;
+    padding-bottom: 10px;
+}
+#current-hits ul li .song-name{
+    color:rgb(131,152,109);
+    text-decoration: none;
+}
+#current-hits ul li .artist-name{
+    color: indianred;
+    text-decoration: none;
+}
+#current-hits ul li a:hover {
+    border-bottom: 1px indianred dotted;
+    font-weight: bold;
+}
+#golden-oldies{
+    float: right;
+    margin-top: -1000px;
+    margin-right: -630px;
+}
+#golden-oldies h3{
+    background-image: url(goldenoldies.gif);
+    width: 190px;
+    height: 30px;
+    text-indent: -9999px;
+    padding-bottom: 2px;
+}
+#golden-oldies ul li{
+    list-style-type: none;
+    padding: 5px;
+    width: 180px;
+    padding-bottom: 10px;
+
+}
+#golden-oldies ul li a{
+    text-decoration: none;
+    color: darkgreen;
+}
+#golden-oldies ul li a:hover {
+    border-bottom: 1px indianred dotted;
+    font-weight: bold;
+}

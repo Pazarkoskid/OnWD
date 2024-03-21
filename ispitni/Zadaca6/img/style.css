@@ -1,0 +1,167 @@
+body{
+    font: 11px Verdana;
+    background-image: url("main_bg_.gif");
+    padding: 0;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+#container{
+    background-image: url("containe.jpg");
+    background-repeat: repeat-y;
+    margin: auto;
+    width: 770px;
+    height: 1500px;
+}
+#container:after{
+    content: " ";
+    display: block;
+
+}
+#pageHeader h1
+{
+    background-image: url("raspi_blue_white.png");
+    background-repeat: no-repeat;
+    width: 220px;
+    height: 171px;
+    clear: right;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+#pageHeader span{
+    display: none;
+}
+#pageHeader h2
+{
+    background-image: url("Raspi_Colour_R.png");
+    width: 150px;
+    height: 182px;
+    float: right;
+    margin-top: -180px;
+    margin-right: 150px;
+}
+#explanation,#quickSummary,#preamble
+{
+
+    float: right;
+    width: 300px;
+    color: #880000;
+}
+#quickSummary h2
+{
+    background-image: url("header.png");
+    width: 250px;
+    height: 30px;
+
+}
+#quickSummary h2 span{
+    display: none;
+}
+#preamble h3
+{
+    background-image: url("header2.png");
+    width: 250px;
+    height: 30px;
+
+}
+#preamble h3 span{
+    display: none;
+}
+#explanation h3
+{
+    background-image: url("header3.png");
+    width: 250px;
+    height: 30px;
+
+}
+#explanation h3 span{
+    display: none;
+}
+#footer{
+    float: right;
+    margin-left: 400px;
+}
+#footer a{
+    color: #880000;
+}
+#linkList
+{
+    float: left;
+    margin-top: -1300px;
+    margin-left: 80px;
+}
+#lselect h3
+{
+    background-image: url("links.jpg");
+    width: 277px;
+    height: 35px;
+}
+#lselect span
+{
+    display: none;
+}
+#lselect ul li:first-child a:before{
+    background-image: url("li_bg_ta.jpg");
+    width: 235px;
+    height: 8px;
+    display: block;
+}
+#lselect ul li:first-child a:after{
+    background-image: url("li_bg_ta.jpg");
+    width: 235px;
+    height: 8px;
+    display: block;
+
+}
+#lselect a:after {
+    display: block;
+    width: 235px;
+    height: 8px;
+    background: url("img/li_bg_ta.jpg");
+    content: " ";
+    margin-bottom: 5px;
+
+}
+#quickSummary{
+    margin-left: 180px;
+    margin-right: 80px;
+}
+#preamble{
+    margin-right: 80px;
+}
+#explanation{
+    margin-left: 180px;
+    margin-right: 80px;
+}
+#footer
+{
+    margin-top: 20px;
+    margin-right: 150px;
+}
+#larchives h3
+{
+    background-image: url("aboutus.jpg");
+    width: 277px;
+    height: 35px;
+}
+#larchives span{
+    display: none;
+}
+#larchives a{
+    color: #880000;
+
+}
+#larchives li{
+    list-style: none;
+}
+#lselect li{
+    width: 235px;
+    background-color: #ecbfbf;
+    display: block;
+    list-style: none;
+    margin-left: -20px;
+    line-height: 15px;
+}
+#lselect a{
+    color: #880000;
+    padding-left: 10px;
+}

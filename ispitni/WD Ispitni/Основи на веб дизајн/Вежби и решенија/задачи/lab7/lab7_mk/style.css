@@ -1,0 +1,68 @@
+body {
+background:brown;
+}
+#navigacija {
+    width: 800px;
+    margin: 20px auto;
+    padding-left: 20px;
+}
+
+.topNaviagationLink {
+    display: inline-block;
+    background: maroon;
+    margin-bottom: 20px;
+    float: right;
+    font-size: 17px;
+}
+
+.topNaviagationLink a {
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 40px;
+    text-decoration: none;
+    color: white;
+}
+#mainPicture {
+  background: white url('slika.jpg');
+  border:10px solid white;
+  width:800px;
+  height:420px;
+  clear:both;
+  margin:40px auto;
+}
+.contentBox {
+  background: white;
+  margin:20px auto;
+  text-align: center;
+  padding: 10px;
+  width:800px;
+}
+.contentTitle {
+  text-align:center;
+  color:red;
+  font-size:25px;
+}
+
+p:first-line{
+	background-color: magenta;
+	text-decoration: underline;
+}
+p{
+	line-height: 30px;
+}
+
+span {
+letter-spacing: 5px;
+}
+#forma{
+ float:right;
+ border:1px brown dashed;
+ text-align: center;
+ width:250px;
+}
+#footer{
+ text-align:center;
+ color:white;
+}
+
+

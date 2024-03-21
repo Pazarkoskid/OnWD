@@ -1,0 +1,231 @@
+@font-face { 
+  font-family: Yanone Kaffeesatz; 
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+    src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+} 
+
+@font-face { 
+  font-family: News Cycle; 
+    src: url('../fonts/NewsCycle-Regular.eot'); 
+    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
+} 
+
+body{
+	background-image: url('images.jpg');
+	width: 100%
+
+}
+#main{
+	background-image: url('main.png');
+	border-radius: 10px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#logo_text h1 a{
+	color: white;
+	text-decoration: none;
+	font-weight: normal;
+
+}
+span.logo_colour{
+	color: #0DBBD5
+}
+
+header h2{
+	color: #F67F00;
+	}
+#menu_container{
+	background-color: #0DBBD5;
+	margin: 10px;
+	border-radius: 10px;
+	border: 1px solid #3BDDF5;
+}
+.sf-menu {
+	list-style-type: none;
+	padding-left: 40px;
+
+}
+.sf-menu a{
+color: white;
+text-decoration: none;
+display: inline;
+
+}
+#menu_container ul li{
+	margin:20px;
+	display: inline;
+
+}
+
+#sidebar_container{
+	float: right;
+}
+.sidebar{
+	background-color: #696969;
+	border-radius: 10px;
+	width: 240px;
+	height: 260px;
+	text-align: left;
+	margin-right: 20px;
+
+}
+.sidebar h3{
+	padding-top: 15px;
+	padding-left: 10px;
+	color: white;
+	font-weight: normal;
+	font-size: 25px;
+}
+.sidebar h4{
+	color: #F67F00;
+	padding-left: 5px;
+	font-weight: normal;
+	font-size: 20px;
+	margin-top: 5px;
+}
+.sidebar h5{
+	color: white;
+	font-weight: normal;
+	padding-left: 5px;
+}
+.sidebar p{
+	color: white;
+	font-weight:normal;
+	padding-left: 5px;
+}
+.sidebar p a{
+	color: #0DBBD5;
+	padding-left: 5px;
+}
+.sidebar ul{
+	list-style-image: url('bullet.png');
+	padding-bottom: 10px;
+}
+.sidebar ul a{
+	color: white;
+	text-decoration: none;
+	font-weight: normal;
+
+}
+.content{
+	padding-left: 33px;
+	float: right; width: 600px;
+
+}
+.content p{
+	clear: left;
+}
+.content h1{
+	color: white;
+	font-weight: normal;
+}
+.content h2{
+	color: #F67F00;
+	font-weight: normal;
+}
+.content p{
+	color: white;
+	font-weight: normal;
+}
+.content h3{
+	color: white;
+	font-weight: normal;
+}
+.content h4{
+	color: #F67F00;
+	font-weight: normal;
+}
+.content h5{
+	color: white;
+	font-weight: normal;
+}
+.content h6{
+	color: white;
+	font-weight: normal;
+}
+#desenP{text-align: right;
+	padding-right: 10px;
+}
+#sredinaP{
+	text-align: center;
+}
+#sredinaP a{
+	color:#0DBBD5;
+}
+.content ul{
+	list-style-image: url('bullet.png');
+	
+}
+.content ul li {
+	color: white;
+
+}
+.content ol{
+	color: white;
+}
+.right {
+	float: right;
+
+}
+
+table tr:first-child{
+	background-color: #70D4E6;
+
+}
+table td{
+	background-color: #D3F2F7;
+}
+
+.submit{
+	background-color:  #0DBBD5;
+	border: 1px solid #3BDDF5;
+}
+footer{
+	background-color:  #0DBBD5;
+	border-radius: 10px;
+	border: 1px solid #3BDDF5;
+	margin-top:10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	clear: both;
+}
+footer p{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+footer p a{
+	color: white;
+	text-decoration: none;
+
+}
+#main{
+	padding-bottom: 10px;
+}
+.form_settings p span {
+	display: inline-block;
+	width: 200px;
+}
+
+.form_settings p * {
+	width: 300px;
+}
+
+.form_settings .checkbox {
+	width: auto;
+}
+
+.form_settings .submit {
+	width: auto;
+	float: right;
+}
+.form_settings p span {
+	float: left;
+	display: inline-block;
+	width: 200px;
+}

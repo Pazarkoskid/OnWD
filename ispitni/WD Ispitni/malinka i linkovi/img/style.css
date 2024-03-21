@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(main_bg_.gif);
+    color: firebrick;
+    font-family: Verdana;
+    font-size: 11px;
+}
+#container{
+    background-image: url(containe.jpg);
+    width: 770px;
+    height: 1250px;
+    background-position: center;
+    background-repeat: repeat-y;
+    margin-left: 280px;
+}
+#pageHeader h1{
+    text-indent: -9999px;
+    background-image: url(raspi_blue_white.png);
+    width: 220px;
+    height: 171px;
+    float: left;
+    margin-left: 70px;
+}
+#pageHeader h2{
+    text-indent: -9999px;
+    background-image: url(Raspi_Colour_R.png);
+    width: 150px;
+    height: 182px;
+    float: right;
+    margin-right: 200px;
+}
+#quickSummary h2{
+    text-indent: -9999px;
+    background-image: url(header.png);
+    width: 250px;
+    height: 30px;
+    float: right;
+    margin-right: -100px;
+}
+#quickSummary .p1, #quickSummary .p2{
+    width: 400px;
+    float: right;
+    padding: 10px;
+    margin-right: 70px;
+}
+#preamble h3{
+    background-image: url(header2.png);
+    width: 250px;
+    height: 30px;
+    float: right;
+    margin-right: -240px;
+    text-indent: -9999px;
+    margin-top: 130px;
+}
+#preamble .p1, #preamble .p2, #preamble .p3{
+    width: 400px;
+    float: right;
+    padding: 10px;
+    margin-right: 70px;
+}
+#explanation h3{
+    background-image: url(header3.png);
+    width: 250px;
+    height: 30px;
+    float: right;
+    margin-right: -245px;
+    text-indent: -9999px;
+    margin-top: 70px;
+}
+#explanation .p1, #explanation .p2{
+    width: 400px;
+    float: right;
+    padding: 10px;
+    margin-right: 70px;
+}
+#footer{
+    float: right;
+    text-align: center;
+    color: firebrick;
+    margin-right: -250px;
+    margin-top: 140px;
+}
+#footer a{
+    color: firebrick;
+}
+#footer a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: firebrick;
+}
+#linkList{
+    color: firebrick;
+    float: left;
+    margin-left: 100px;
+    margin-top: -850px;
+}
+#lselect h3{
+    background-image: url(links.jpg);
+    width: 170px;
+    height: 35px;
+    text-indent: -9999px;
+    margin-left: -30px;
+    margin-top: -30px;
+}
+#lselect ul{
+    list-style-type: none;
+    color: firebrick;
+    padding: 10px;
+}
+
+#lselect ul li:first-child, #lselect ul li:nth-child(2), #lselect ul li:nth-child(3), #lselect ul li:nth-child(4){
+    display: block;
+    height: 30px;
+    background-image: url(li_bg_ta.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: rgb(236, 191,191);
+    margin-bottom: 5px;
+    width: 150px;
+    color: firebrick;
+    margin-top: -10px;
+}
+#lselect ul li:nth-child(5){
+    display: block;
+    height: 20px;
+    background-color: rgb(236, 191,191);
+    margin-bottom: 5px;
+    width: 150px;
+    color: firebrick;
+    margin-top: -10px;
+}
+#lselect ul li a{
+    color: firebrick;
+}
+#lselect ul li a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: firebrick;
+}
+#larchives h3{
+    background-image: url(aboutus.jpg);
+    width: 170px;
+    height: 35px;
+    text-indent: -9999px;
+    margin-left: -30px;
+}
+#larchives ul{
+    list-style-type: none;
+    margin-left: 10px;
+    color: firebrick;
+}
+#larchives ul li a{
+    color: firebrick;
+}
+#larchives ul li a:hover{
+    color: firebrick;
+    font-weight: bold;
+    text-decoration: none;
+}

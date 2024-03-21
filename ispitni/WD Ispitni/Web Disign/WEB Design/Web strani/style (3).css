@@ -1,0 +1,305 @@
+@font-face { 
+  font-family: Yanone Kaffeesatz; 
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+    src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+} 
+
+@font-face { 
+  font-family: News Cycle; 
+    src: url('../fonts/NewsCycle-Regular.eot'); 
+    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
+} 
+body {
+	background-image: url('../images/images.jpg');
+}
+
+#main {
+	background-image: url('../images/main.png');
+	width: 75%;
+	margin: auto;
+	margin-top: 30px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+header {
+
+	padding-top: 20px;
+}
+
+#logo {
+	margin-bottom: 30px;
+}
+
+a.currentLink {
+	color: red;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#logo h1 {
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.logo_colour {
+	color: #0DBBD5;
+}
+
+#logo_text h2 {
+	font-size: small;
+	color: #F67F00;
+	margin-top: 0px;
+}
+
+nav {
+	background-color: #0DBBD5;
+	border-radius: 10px;
+	
+}
+
+#menu_container {
+	height: 45px;
+}
+
+.sf-menu {
+	height: 30px;
+	float: right;
+	margin-right: 20px;
+}
+
+.sf-menu li {
+	margin-left: 20px;
+	display: inline;
+}
+
+.sf-menu a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size:large;
+}
+
+#site_content {
+	color: #FFFFFF;
+	margin-top: 20px;
+}
+
+.content {
+	width: 70%;
+}
+
+#sredinaP {
+	text-align: center;
+}
+
+strong {
+	display: block;
+	font-weight: bold;
+}
+
+i {
+	display: block;
+	font-style: italic;
+	text-align: right;
+}
+
+.content p{
+	margin-top: 32px;
+}
+
+.content h1 {
+	margin: 0px;
+	padding-top: 22px;
+	padding-right: 4px;
+}
+
+.content h2, h4 {
+	color: #F67F00;
+}
+
+.content ul li {
+	background: url('../images/bullet.png') no-repeat;
+	list-style-type: none;
+	margin: 0;
+	padding: 0px 0px 1px 20px;
+}
+
+.content ol {
+
+	margin-left: 30px;
+}
+
+.content ul, ol {
+	padding-left: 0px;
+}
+
+#sidebar_container {
+	width: 30%;
+	float: right;
+	margin-left: 25px;
+}
+
+.left {
+	float: left;
+}
+
+.center {
+	text-align: center;
+	display: block;
+}
+
+.right {
+	float: right;
+}
+
+.right img {
+	margin-top: 20px;
+}
+
+.sidebar {
+	padding-left: 20px;
+	border-right-width: 0px;
+	margin-left: 0px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: #353535;
+	display: block;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+}
+
+.sidebar h3 {
+	display: inline-block;
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+
+.sidebar br {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.sidebar p a {
+	color: red;
+	margin-left: 0px;
+}
+
+.sidebar h4 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #F67F00;
+}
+
+.sidebar h5 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.sidebar ul {
+	padding-left: 0px;
+}
+
+.sidebar ul li {
+	background: url('../images/bullet.png') no-repeat;
+	list-style-type: none;
+	margin: 0;
+	padding: 0px 0px 1px 15px;
+}
+
+.sidebar a {
+	text-decoration: none;
+	margin-left: 25px;
+	color: #FFFFFF;
+}
+
+table th {
+	border: 1px solid white;
+}
+
+table tbody tr {
+	background-color: #D3F2F7;
+	padding-top: 10px;
+	color: #000000;
+}
+table tbody tr:first-child {
+	color: #FFFFFF;
+	background-color: #0DBBD5;
+}
+
+textarea {
+	width: 250px;
+	margin-left: 50px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+input[type=text] {
+	width: 250px;
+	margin-left: 105px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+form {
+	width: 441px;
+}
+
+.submit {
+	width:100px;
+	height:30px;
+	float: right;
+	margin-right: 28px;
+	background-color: #0DBBD5;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+	margin-bottom: 20px;
+}
+
+.form_settings{
+	margin-bottom: 40px;
+}
+
+.checkbox {
+
+	margin-left: 41px;
+}
+
+
+#id {
+	width: 250px;
+	margin-left: 13px;
+}
+
+footer {
+	
+	background-color: #0DBBD5;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding-top: 3px;
+	border-bottom-width: 3px;
+	padding-bottom: 3px;
+}
+
+footer p {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+footer p a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+

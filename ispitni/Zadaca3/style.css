@@ -1,0 +1,132 @@
+*{
+    font: 12px Verdana,Arial,Serif;
+
+}
+#container{
+    background-image: url("containerbackground.gif");
+    background-repeat: repeat-y;
+    margin: auto;
+    width: 663px;
+}
+#pageHeader{
+    background-image: url("top.gif");
+    background-repeat: no-repeat;
+    width: 605px;
+    height: 332px;
+    margin: auto;
+}
+#pageHeader h1{
+    display: none;
+}
+#quickSummary{
+    background: url("summary.gif") no-repeat;
+    padding-top: 46px;
+    margin-right: 37px;
+    width: 192px;
+    float: right;
+}
+#quickSummary .p1{
+    padding-left:  10px;
+}
+#preamble h3 span{
+    display: none;
+}
+#preamble h3{
+    background-image: url("title1.gif");
+    width: 389px;
+    height: 22px;
+    padding-top: 26px;
+    margin-top: 0;
+    margin-left: 37px;
+}
+#preamble .p1{
+    justify-items: auto;
+    margin-left: 50px;
+    padding-right: 241px;
+    clear: left;
+}
+#explanation h3 span{
+    display: none;
+}
+#explanation h3{
+    background-image: url("title2.gif");
+    width: 389px;
+    height: 22px;
+    padding-top: 26px;
+    margin-top: 0;
+    margin-left: 37px;
+}
+#explanation .p1{
+    justify-items: auto;
+    margin-left: 50px;
+    padding-right: 241px;
+}
+#participation h3 span{
+    display: none;
+}
+#participation h3{
+    background-image: url("title3.gif");
+    width: 389px;
+    height: 22px;
+    padding-top: 26px;
+    margin-top: 0;
+    margin-left: 37px;
+}
+#participation .p1{
+    justify-items: auto;
+    margin-left: 50px;
+    padding-right: 241px;
+}
+#participation a{
+    color: #d93737;
+    text-decoration: none;
+}
+#participation li{
+    margin-left: 50px;
+    padding-bottom: 7px;
+}
+#linkList{
+    width: 192px;
+    float: right;
+    margin-top: -670px;
+    margin-right: 35px;
+}
+.select span{
+    display: none;
+}
+.select{
+    background-image: url("designs.gif");
+    width: 192px;
+    height: 46px;
+}
+#lselect li{
+    list-style: url("paperfolded.gif");
+    padding-bottom: 7px;
+}
+#lresources li{
+    list-style: url("paper.gif");
+    padding-bottom: 7px;
+}
+#lresources a{
+    color: #d93737;
+    text-decoration: none;
+    font-size: 11px;
+    margin-right: 3px;
+}
+.resources{
+    background-image: url("resources.gif");
+    width: 192px;
+    height: 46px;
+}
+.resources span{
+    display: none;
+}
+#extraDiv1 {
+    float: right;
+    margin-top: -1173px;
+    margin-right: 620px;
+
+}
+#extraDiv1 span{
+    font:14px "Arial Black";
+}

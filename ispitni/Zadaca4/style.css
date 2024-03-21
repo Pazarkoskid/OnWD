@@ -1,0 +1,127 @@
+body{
+    font : 10px Verdana, Arial, Helvetica, sans-serif;
+    background-color: #88b5f8;
+    margin: auto;
+    width: 650px;
+}
+#container{
+    background-image: url("container.jpg");
+    width: 666px;
+    margin-top: -15px;
+    margin-bottom: -10px;
+}
+#container h3{
+    font : 600 18pt "trebuchet ms";
+    color : #ffffff;
+    background-image: url("leaf.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    margin: 0;
+    letter-spacing : 0.5px;
+    padding-bottom : 0;
+    padding-top : 0;
+    height : 40px;
+    text-indent : 5px;
+}
+#pageHeader{
+    background-image: url("head.jpg");
+    width: 623px;
+    height: 300px;
+    margin: auto;
+}
+#pageHeader span{
+    display: none;
+}
+#preamble, #supportingText {
+    clear : right;
+    margin-top: 20px;
+    box-sizing: border-box;
+    width:460px;
+    margin-left: 28px;
+    text-decoration: none;
+    justify-content: left;
+    text-align: justify;
+    text-indent: 10px;
+}
+#regulation{
+    height: 150px;
+}
+#linkList span{
+    text-indent: -9999px;
+}
+#linkList h3.projects{
+    background-image : url("latestprojects.jpg") ;
+
+    height : 50px;
+    width : 230px;
+    margin : 10px 0 -8px 0;
+}
+#linkList h3.projects span{
+    display : none;
+    background : none;
+    visibility : hidden;
+}
+#linkList ul{
+    margin : 0;
+    padding : 0;
+}
+#linkList li{
+    background :#66cb25;
+    display : block;
+    border-bottom : 2px dotted #4f740e;
+    padding : 10px 0 8px 5px;
+    width : 133px;
+    line-height : 1.8ex;
+    border-top : 2px dotted #4f740e;
+    margin-top : 0;
+    margin-bottom : 8px;
+    color : #172104;
+    text-align : left;
+}
+#linkList li:hover{
+    background : #88b5f8;
+    display : block;
+    border-bottom : 2px dotted #5475ab;
+    padding : 10px 0 8px 5px;
+    width : 133px;
+    line-height : 1.8ex;
+    border-top : 2px dotted #5475ab;
+    margin-top : 0;
+    margin-bottom : 8px;
+    color : #345082;
+}
+#linkList #lprojects li {
+    margin-left: 25px;
+    display : list-item;
+    background: transparent;
+    list-style-image:url('circle.png');
+    border-bottom : none;
+    border-top : none;
+    padding : 10px 0 8px 5px;
+    width : 128px;
+    margin-top : 0;
+    margin-bottom : 8px;
+    text-align : left;
+    color : white;
+    text-decoration : none;
+    font-weight: bold;
+}
+#linkList li a:link{
+    color : #386900;
+    text-decoration : none;
+}
+#linkList li a:link:hover {
+    color : #386900;
+    text-decoration : none;
+}
+#linkList li a:visited{
+    color : #386900;
+    text-decoration : none;
+}
+#homes li{
+    background-color: #4f740e;
+}
+#lprojects span{
+    color : white;
+    background: #376801;
+}

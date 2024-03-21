@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/gradient_bg.jpg);
+    width: 100%;
+    height: 1704px;
+    color: white;
+}
+#extraDiv1{
+    background-image: url(img/clouds.jpg);
+    width: 100%;
+    height: 104px;
+    background-position: center;
+    margin-top: -1570px;
+}
+#extraDiv2{
+    background-image: url(img/water_edge.jpg);
+    width: 100%;
+    height: 75px;
+}
+#container{
+    text-align: justify;
+    float: center;
+}
+#pageHeader{
+    background-image: url(img/fish_bottom.gif);
+    width: 224px;
+    height: 110px;
+    margin-left: 380px;
+    margin-top: 190px;
+}
+#pageHeader h1{
+    float: center;
+    margin-top: 150px;
+    margin-left: 250px;
+}
+#pageHeader h2{
+    float: center;
+    margin-left: 300px;
+    margin-right: 220px;
+    width: 300px;
+}
+#quickSummary .p1{
+    margin-top: 100px;
+}
+.p1, .p2{
+    float: center;
+    margin-left: 400px;
+    margin-right: 20px;
+    width: 600px;
+    padding: 30px;
+}
+#explanation h3 span, #participation h3 span, #benefits h3 span{
+    margin-left: -500px;
+    width: 450px;
+    padding: -50px;
+    float: right;
+    margin-right: -500px;
+}
+#explanation h3, #participation h3, #benefits h3{
+    background-image: url(img/fish_top.gif);
+    width: 180px;
+    height: 80px;
+    float: left;
+    margin-left: 400px;
+}
+#footer{
+    float: center;
+    color: orangered;
+    margin-left: 450px;
+}
+#linkList{
+    float: right;
+    margin-right:40px;
+    margin-top: -1200px;
+}
+#linkList2 ul li{
+    list-style-type: none;
+    font-size: 16px;
+    color: white;
+}
+#lselect ul li{
+    border-bottom: 1px solid darkblue;
+    text-decoration: none;
+    width: 150px;
+}
+#lselect ul li a:hover{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#lkorisni_linkovi ul li a:hover{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+#lselect li{
+    padding: 10px;
+}

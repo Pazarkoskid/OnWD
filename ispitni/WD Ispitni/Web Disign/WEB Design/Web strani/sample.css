@@ -1,0 +1,93 @@
+body{
+font-family:Verdana;
+font-size:10px;
+text-indent:5px;
+text-align:justify;
+background-color:rgba(6, 113, 230, 0.61);
+height:100%;
+
+}
+#container{
+background:url(container.jpg);
+background-repeat:repeat-y;
+width:666px;
+margin:0px 408px 0px 408px;;
+height:100%;
+
+/*position:relative;
+left:200px;*/
+
+
+}
+#pageHeader{
+height:300px;
+width:623px;
+background:url('head.jpg');
+background-repeat:no-repeat;
+position:relative;
+left:20px;
+}
+#preamble{
+width:470px;
+padding-left:27px;
+padding-top:20px;
+background-image: url('leaf.png');
+background-repeat: no-repeat;
+background-position:right top;
+
+}
+h3{
+color:white;
+font-size:16px;
+}
+#supportingText{
+width:470px;
+padding-left:27px;
+}
+#linkList{
+width:170px;
+position:absolute;
+right:400px;
+top:300px;
+}
+#lhomes ul{
+list-style-type: none;
+  margin: 0;
+  padding-left:1px;
+  width:100px;
+
+}
+
+#lhomes a{
+	display: block;
+    padding: 5px;
+    color: #444444;
+    background:rgba(44, 255, 3, 0.87);
+    text-decoration: none;
+    border: 1px solid grey;
+
+
+}
+#lhomes li{
+  text-decoration: none;
+  display: block;
+  width: 128px;
+  height:30px;
+  padding-left:-10px;
+}
+#lprojects ul{
+list-style:none;
+padding:0px;
+}
+#lprojects li{
+display:block;
+background-image:url(circle.png);
+background-repeat:no-repeat;
+width:100px;
+height:30px;
+}
+#lprojects li{
+padding-left:15px;
+padding-bottom:5px;
+color:white;
+}

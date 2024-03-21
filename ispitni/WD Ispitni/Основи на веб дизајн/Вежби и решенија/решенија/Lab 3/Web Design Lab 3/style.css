@@ -1,0 +1,40 @@
+body {
+	margin: -2px;
+}
+#table {
+	border: none;
+	width: 900px;
+}
+#header {
+	background-color: #EDEDED;
+	font-size: 48px;
+	height: 150px;
+}
+#radioTable {
+	border-collapse: collapse;
+	border: 1px solid black;
+	width: 500px;
+	height: 200px;
+}
+#wrapper {
+	width: 900px;
+	left: 50%;
+	position: relative;
+	margin-left: -400px;
+	-webkit-box-shadow: -1px -4px 16px rgba(50, 50, 50, 0.68);
+	-moz-box-shadow: -1px -4px 16px rgba(50, 50, 50, 0.68);
+	box-shadow: -1px -4px 16px rgba(50, 50, 50, 0.68);
+}
+#title {
+	//color: #FFA924;
+	font-family: Arial;
+}
+li a {
+	color: black;
+	font-family: Arial;
+}
+.text {
+	font-family: Arial;
+	font-size: 14px;
+	margin-left: -20px;
+}

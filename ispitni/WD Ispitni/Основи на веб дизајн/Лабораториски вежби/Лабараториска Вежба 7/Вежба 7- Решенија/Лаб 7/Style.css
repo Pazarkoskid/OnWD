@@ -1,0 +1,53 @@
+body{
+	background-color: #014d5d; width: 100%; margin: 0 auto; 
+}
+
+#navigacija{ width:40%; margin-top: 20px;
+	margin-left: 28%;
+	margin-right: 25%;
+	margin-bottom: 15px;
+	 }
+.topNaviagationLink{display: inline;
+}
+.topNaviagationLink a{color: white; padding: 20px; font: bold 12px Tahoma;  text-decoration: none; 
+}
+#mainPicture{width:50%; margin-top:15px; margin-left:auto; margin-right:auto; margin-bottom: 15px; 
+}
+.picture{width:600px ;height: 300px  ; background-image:url('slika.jpg'); border: 8px solid white;
+}
+.contentBox{background-color: white; overflow:hidden; width: 608px; margin-top:20px; margin-left: 25%; margin-right:25%; margin-bottom:20px; 
+}
+.contentTitle{
+	font: 18px Tahoma;
+	color: blue; 
+	text-align:center;
+	padding: 10px; 
+}
+.contentText{
+	color: #061c37;
+	font-size:15px;
+	font-family: 'Segoe UI Light';
+	font-weight:bold;
+	text-align:left;
+	margin:15px;
+	padding-left:15px;
+}
+
+.contentText span{letter-spacing: 6px; 
+}
+
+.contentText p:first-line{background-color: #00ffff; text-decoration:underline; }
+
+#forma{text-align: center;
+	float: right;
+    width: 190px;
+	height: 100%;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 1px dashed blue;
+
+}
+
+
+
+#footer{text-align: center; font-weight:bold; color:white; margin-right: 30px; }

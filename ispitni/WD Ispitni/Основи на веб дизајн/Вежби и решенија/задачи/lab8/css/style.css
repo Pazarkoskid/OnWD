@@ -1,0 +1,328 @@
+@font-face {
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poiret One'), local('PoiretOne-Regular'), url("../fonts/Poiret One.woff") format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('../fonts/Open Sans.woff') format('woff');
+}
+
+body
+{
+	background:url(../images/back.jpg);
+}
+
+#main
+{
+	width: 1000px;
+	margin:auto;
+	background-color:rgba(30,30,30,0.8);
+}
+
+#logo #logo_text
+{
+	padding-top:10px;
+	padding-left:20px;
+}
+
+#logo #logo_text a
+{
+	font-family: 'Open Sans';
+	 font-weight: 400;
+	text-decoration:none;
+	color:white;
+}
+
+#logo #logo_text span
+{
+	color:#39B3D7;
+}
+
+#logo #logo_text h2
+{
+	font-family: 'Poiret One';
+	font-weight:400px;
+	height:46px;
+	margin-top:-15px;
+	font-size:17px;
+	color:orange;
+}
+
+#menu_container
+{
+	width:900px;
+	height:40px;
+	margin:auto;
+	background-color:#39B3D7;
+}
+
+#menu_container #nav .currentLink
+{
+	color:black;
+}
+#menu_container #nav a
+{
+	text-decoration:none;
+	color:white;
+}
+
+ul.sf-menu
+{
+	padding-top:5px;
+	position:relative;
+	display:block;
+	list-style:none;
+}
+
+ul.sf-menu li
+{
+	font-size:22px;
+	display:block;
+	float:left;
+	position:relative;
+	text-align:right;
+	padding-left:35px;
+	padding-right:35px;
+}
+
+#site_content #sidebar_container
+{
+	width:350px;
+	float:right;
+}
+
+#site_content #sidebar_container .sidebar
+{
+	display:block;
+	background-color:black;
+	margin-right:50px;
+	padding-bottom:10px;
+}
+#site_content #sidebar_container .sidebar h3
+{
+	font-family: 'Poiret One';
+	color:white;
+	padding-left:10px;
+	padding-top:10px;
+	
+}
+
+#site_content #sidebar_container .sidebar h4
+{
+	font-family: 'Poiret One';
+	color:orange;
+	padding-left:10px;
+}
+
+#site_content #sidebar_container .sidebar h5
+{
+	font-family: 'Open Sans';
+	color:white;
+	font-style:italic;
+	padding-left:10px;
+	margin-top:-15px;
+}
+
+#site_content #sidebar_container .sidebar p 
+{
+	font-family:'Open Sans';
+	display:block;
+	color:white;
+	font-size:20px;
+	padding-left:10px;
+}
+
+#site_content #sidebar_container .sidebar a
+{
+	color:#39B3D7;
+	padding-top:5px;
+	padding-bottom:10px;
+}
+
+.sidebar h3
+{
+	font-size:30px;
+	font-family: 'Poiret One';
+	color:white;
+	padding-left:10px;
+	padding-top:10px;
+}
+
+.sidebar ul li a
+{
+	text-decoration:none;
+	color:white;
+}
+
+.sidebar ul li
+{
+	position:relative;
+	list-style-image:url(../images/bullet.png);
+}
+
+.content p
+{
+	font-family:'Open Sans';
+	font-size:13px;
+	color:white;
+	padding-left:30px;
+}
+
+.content h1
+{
+	font-family:'Poiret One';
+	color:white;
+	padding-left:30px;
+	font-weight:100;
+}
+
+.content h2
+{
+	font-family:'Open Sans';
+	color:orange;
+	font-weight:400;
+	padding-left:30px;
+}
+
+.content h3
+{
+	color:white;
+	font-family:'Open Sans';
+	padding-left:30px;
+	font-weight:600;
+}
+
+.content h4
+{
+	font-family:'Poiret One';
+	color:orange;
+	padding-left:30px;
+	font-weight:100;
+}
+
+.content h5
+{
+	color:white;
+	font-family:'Open Sans';
+	padding-left:30px;
+	font-weight:400;
+	font-style:italic;
+	margin-top:-20px;
+}
+
+.content h6
+{
+	color:white;
+	font-family:'Open Sans';
+	padding-left:30px;
+	font-weight:400;
+	font-style:italic;
+	margin-top:-10px;
+}
+
+#desenP
+{
+	text-align:right;
+}
+
+#sredinaP
+{
+	text-align:center;
+}
+#sredinaP a
+{
+	color:#39B3D7;
+}
+
+.content ul li
+{
+	margin-left:20px;
+	list-style-image:url(../images/bullet.png);
+}
+
+.content ul li 
+{
+	font-family:'Open Sans';
+	color:white;
+}
+
+.content ol li
+{
+	font-family:'Open Sans';
+	color:white;
+}
+
+.content ol
+{
+	margin-left:10px;
+}
+
+table, th, td
+{
+margin-left:30px;
+border: 0px solid black;
+padding-right:57px;
+}
+
+th
+{
+	padding-left:5px;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:#39B3D7;
+	text-align:left;
+	color:white;
+}
+
+td
+{
+	padding-left:5px;
+		padding-top:10px;
+		padding-bottom:10px;
+		color:black;
+		background-color: #D3F2F7;
+
+}
+
+textarea
+		{
+			margin-left:50px;
+		}
+		
+		input
+		{
+			margin-left:105px;
+			}
+			
+		.checkbox
+		{
+			margin-left:40px;
+			}
+			
+			footer
+			{
+				display:block;
+				background-color:rgba(30,30,30,0.8);
+				text-align:center;
+				color:white;
+				}
+				
+				select
+				{
+					width:405px;
+					margin-left:15px;
+					}
+	.submit
+	{
+		width:410px;
+		margin-left:150px;
+		background-color:#39B3D7;
+		color:white;
+		padding-bottom:10px;
+		padding-top:10px;
+		border-radius:4px;
+		}
